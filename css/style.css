@@ -44,3 +44,40 @@ padding: 70px;}
 
 .card{width: 350px;
 }
+
+select{margin-bottom: 24px;}
+
+form h3{margin-bottom: 32px;}
+
+#exampleCheck1{
+    margin-bottom: 35px;}
+
+.form-check-input:checked{
+    background-color: #7749F8;
+    border-color: #7749F8;
+  }
+
+  form{width: 420px;
+}
+
+.formulario{margin-bottom: 100px;}
+  
+span{font-size: 20px;}
+
+.contato{margin-top: 77px;
+margin-bottom: 48px;}
+
+.icones{margin-top: 20px;}
+
+svg{margin-left: 5px;}
+
+.wpp, .phone{margin-top: 10px;}
+
+footer{background: rgba(196, 196, 196, 0.3);
+    margin-bottom: 0px;
+}
+.textofinal, .linksfinal, .midiafinal{margin-top: 48px;}
+
+.final p{width: 340px;}
+
+.linke{color: black;}
