@@ -1,0 +1,46 @@
+*{box-sizing: border-box;}
+
+.navbar-nav{
+    margin-left: 40px;
+}
+
+.nav-item{
+    margin-left: 10px;
+}
+
+.btn{background-color: #7749F8;
+color: white;
+border-color: white;}
+
+
+
+.w-100{height: 400px; 
+    background-size: cover;}
+
+.list-group{width: 350px;
+margin-top: 48px;}
+
+.texto{margin-bottom: 0px;
+}
+
+.texto2{width: 451px;
+margin-top: 16px;
+margin-bottom: 48px;}
+
+.section2{margin-top: 80px;
+}
+
+.btn-outline-primary{border-color: #7749F8;
+color: #7749F8;
+background-color: white;
+font-weight: 600;}
+
+.section3{background-color: rgba(196, 196, 196, 0.3);
+padding: 70px;}
+
+.cards{margin-top: 100px;}
+
+.cards h2{margin-bottom: 48px;}
+
+.card{width: 350px;
+}
