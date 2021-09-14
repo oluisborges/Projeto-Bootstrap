@@ -29,7 +29,8 @@ width: 100%;
 height: 100%;
 }
 
-.list-group{width: 350px;
+.list-group{max-width: 350px;
+width: 100%;
 margin-top: 48px;
 }
 
@@ -53,7 +54,7 @@ font-weight: 600;
 }
 
 .section3{background-color: rgba(196, 196, 196, 0.3);
-padding: 70px;
+padding: 0px;
 }
 
 .cards{margin-top: 100px;
@@ -123,3 +124,31 @@ width: 100%;
 max-height: 336px;
 width: 100%;
 height: 100%;}
+
+.btn-outline-success:hover{background-color: white;
+color: #7749F8;}
+
+.btn-outline-primary:hover{background-color: #7749F8;
+border:#7749F8;}
+
+.img1{max-width: 641px;
+max-height: 336px; 
+background-size: cover;
+width: 100%;
+height: 100%;}
+
+.img2{margin-top: 40px;
+    margin-bottom: 40px;
+max-width: 516px; 
+max-height: 290px;
+width: 100%;
+height: 100%;}
+
+.img3{
+max-width: 516px; 
+max-height: 290px;
+width: 100%;
+height: 100%;
+}
+
+.textobgcinza{margin-bottom: 40px;}

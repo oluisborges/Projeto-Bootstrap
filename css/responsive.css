@@ -7,7 +7,7 @@
 .section3 h2 {margin-top: 20px;}
 
 h2, p{text-align: center;}
-}
+
 .textoh2p{text-align: center;
 }
 
@@ -28,7 +28,15 @@ text-align: center;}
 
 .copyright{margin-top: 20px;}
 
+iframe{
+    width: 100%;
+    height: 100%;
+    max-width: 451px;
+    max-height: 309px;}
 
+
+
+}
 
 
 
