@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <title>Bootstrap</title>
 </head>
 <body>
-<nav class="navbar navbar-dark navbar-expand" style="background-color: #7749F8;">
+<nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #7749F8;">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,19 +43,19 @@
     <div class="carousel-inner">
       <div class="carousel-item active position-relative">
         <img src="./images/carrossel1.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-md-block position-absolute">
           <h1 class="">h1. Heading Title</h1>
         </div>
       </div>
       <div class="carousel-item position-relative">
         <img src="./images/carrossel2.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-md-block position-absolute">
           <h1 class="">h1. Heading Title</h1>
         </div>
       </div>
       <div class="carousel-item position-relative">
         <img src="./images/carrossel3.jpg" class="d-block w-100" alt="..." >
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-md-block position-absolute">
           <h1 class="">h1. Heading Title</h1>
         </div>
       </div>
@@ -68,7 +69,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <div class="d-flex justify-content-evenly align-items-center section2">
+  <div class="d-flex flex-wrap justify-content-evenly align-items-center section2">
     <div class="listaeimagem">
       <div class="textoh2p">
         <h2 class="texto">H2 Lorem Ipsum Dolor</h2>
@@ -84,7 +85,7 @@
     </div>
     <img src="./images/carrossel3.jpg" alt="..." class="rounded" style="width: 641px; height: 336px; background-size: cover;">
   </div>
-  <div class="d-flex justify-content-evenly align-items-center section2 section3">
+  <div class="d-flex flex-wrap justify-content-evenly align-items-center section2 section3">
     <img src="./images/carrossel2.jpg" alt="..." class="rounded" style="width: 516px; height: 290px;">
     <div class="textoh2p">
       <h2 class="">H2 Lorem Ipsum Dolor</h2>
@@ -92,8 +93,8 @@
       <button type="button" class="btn btn-outline-primary">Call to Action</button>
     </div>
   </div>
-  <div class="d-flex justify-content-evenly align-items-center section2">
-    <div class="textoh2p">
+  <div class="d-flex flex-wrap justify-content-evenly align-items-center section2">
+    <div class="textoh2p texto3">
       <h2 class="">H2 Lorem Ipsum Dolor</h2>
       <p class="texto2 h6 text-muted">In ultricies fermentum aliquet. Pellentesque dui magna, condimentum non ullamcorper at, cursus in sem. Nunc condimentum, purus ac sagittis ultricies, metus leo pharetra mi, non vehicula felis elit et nisi.</p>
       <button type="button" class="btn btn-outline-primary">Call to Action</button>
@@ -102,7 +103,7 @@
   </div>
   <div class="cards">
     <h2 class="text-center">H2 Blog</h2>
-    <div class="d-flex justify-content-evenly">
+    <div class="d-flex flex-wrap justify-content-evenly">
       <div class="col1">
         <div class="card">
           <img src="./images/card-img.png" class="card-img-top" alt="...">
@@ -136,8 +137,8 @@
     </div>
   </div>
   <h2 class="text-center contato">H2.Contato</h2>
-  <div class="formulario d-flex justify-content-evenly">
-    <form>
+  <div class="formulario d-flex flex-wrap justify-content-evenly">
+    <form class="formu">
       <h3>H3.Heading Title</h3>
       <div class="mb-3">
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Placeholder">
@@ -156,12 +157,12 @@
         <input type="checkbox" class="form-check-input"  id="exampleCheck1">
         <label class="form-check-label" for="exampleCheck1">Check me out</label>
       </div>
-      <button type="submit" class="btn btn-primary purple-500">Primary</button>
+      <button type="submit" class="btn btn-primary purple-500 btnform">Primary</button>
     </form>
   <div>
     <div class="container-fluid">
       <div class="map-responsive">
-      <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" width="451" height="309" frameborder="0" style="border-radius: 15px;" allowfullscreen></iframe>
+      <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" width="100%" height="100%" max-width="451" max-height="309" frameborder="0" style="border-radius: 15px;" allowfullscreen></iframe>
   </div>
   </div>
     <div class="icones">
@@ -182,7 +183,7 @@
   </div>
 </section>
 <footer>
-<div class="final d-flex justify-content-evenly">
+<div class="final d-flex flex-wrap justify-content-evenly">
   <div class="textofinal">
     <h3>h3. Heading Title</h3>
     <p class="text-muted">In ultricies fermentum aliquet. Pellentesque dui magna, condimentum non ullamcorper at, cursus in sem. Nunc condimentum, purus ac sagittis ultricies.</p>
@@ -211,7 +212,7 @@
     </div>
   </div>
 </div>
-   <p class="text-center text-muted">Todos os direitos reservados - 2021</p>
+   <p class="text-center text-muted copyright">Todos os direitos reservados - 2021</p>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
